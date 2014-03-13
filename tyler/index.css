@@ -1,0 +1,43 @@
+/* Main marketing message and sign up button */
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.marketing {
+  margin: 40px;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+
+.navbar {
+	margin-top: -25px;
+}
+
+
+.col-md-4 {
+	border-color: black;
+	background-color: orange;
+	height: 198px;
+}
+
+#footer {
+	position: relative;
+	width: 700px;
+	margin: 0 auto;
+}	
+
+.container-fluid {
+	height: 168px;
+	background-color: #89CFCE;
+	background-image: url('../Assets/header_bg.png');
+	background-repeat:repeat-x;
+}
