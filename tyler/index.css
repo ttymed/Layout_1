@@ -3,6 +3,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	background-color: #333333;
 }
 .marketing {
   margin: 40px;
@@ -319,4 +320,10 @@ img{
 	color: #656565;
 	text-align: center;
 	background-color: #333333;
+	/*position: fixed;
+	bottom: 0px;*/
+}
+
+#content {
+	background-color: white;
 }
