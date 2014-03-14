@@ -2,6 +2,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
 }
 .marketing {
   margin: 40px;
@@ -21,14 +22,8 @@ body {
 .col-md-4 {
 	border-color: black;
 	background-color: orange;
-	height: 205epx;
+	height: 210px;
 }
-
-#footer {
-	position: relative;
-	width: 700px;
-	margin: 0 auto;
-}	
 
 .container-fluid {
 	height: 200px;
@@ -41,7 +36,15 @@ body {
 	display: inline-block;
 	padding-left: 20px;
 	text-align: center;
+	color: #89CECE;
+}
 
+.navbar-text > ol {
+	color: #89CECE;
+}
+
+.navbar-text > ol:hover {
+	color: #FFFFFF;
 }
 
 .navbar-section {
@@ -119,23 +122,39 @@ ol {
 	font-color: #FFFFFF;
 	font-weight: 300;
 	font-size: 17px;
-	width: 285px;
+	width: 295px;
 	height: 60px;
 	background-color: #666666;
 	color: #D2D2D2;
 	box-shadow: 0 6px #333333;
-	margin-top: 21px;
+	margin-top: 30px;
+	border: none;
+	transition:background-color .5s;
 }
 
+#more-info:hover {
+	background-color: #444444;
+	color: #CCCCCC;
+}
 /*Botton three boxes right above the footer*/
 
 #left {
 	margin-right: 20px;
+	transition:background-color .5s;
+}
+
+#left:hover {
+	background-color: #444444;
 }
 
 #middle {
 	margin-left: 20px;
 	margin-right: 20px;
+	transition:background-color .5s;
+}
+
+#middle:hover {
+	background-color: #444444;
 }
 
 #right {
@@ -144,7 +163,7 @@ ol {
 
 .col-md-4 {
 	width: 363px;
-	height: 320px;
+	height: 340px;
 	margin-bottom: 40px;
 	margin-top: 13px;
 	border-radius: 6px;
@@ -176,8 +195,9 @@ ol {
 	border-top: 10px solid white;
 	font-size: 14px;
 	margin: 0px 72px 10px 72px;
-	padding-top: 20px;
+	padding-top: 30px;
 	color: white;
+	font-weight: 300;
 }
 
 #middle-title {
@@ -203,8 +223,9 @@ ol {
 	border-top: 10px solid white;
 	font-size: 14px;
 	margin: 0px 72px 10px 72px;
-	padding-top: 20px;
+	padding-top: 30px;
 	color: white;
+	font-weight: 300;
 }
 
 #jupiter {
@@ -239,7 +260,7 @@ ol {
 
 #center-earth-price {
 	font-size: 50px;
-	margin-top: -30px;
+	margin-top: -20px;
 	color: white;
 	font-weight: 300;
 	border-bottom: 1px solid #555555;
@@ -248,13 +269,54 @@ ol {
 }
 
 #more-deals {
+	text-align: center;
 	border-top: 1px solid #777777;
 	margin-top: 20px;
 	font-size: 30px;
 	color: white;
-	padding-top: 10px;
+	padding-top: 20px;
 	font-weight: 300;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	transition:background-color .5s;
+	color: white;
+}
+
+#extra-deals {
+	transition:background-color .5s;
+	color: white;
+}
+
+a:hover {
+	background-color: #444444;
+	color: white;
+	margin-bottom: -4px;
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+#more-deals:hover {
+	background-color: #444444;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin-bottom: -2px;
+	padding-bottom: -2px;
+	height: 85px;
+
 }
 img{
-	margin-left: 5px;
+	margin-left: 7px;
+	height: 45px;
+}
+
+/*footer*/
+
+#footer {
+
+	padding-top: 30px;
+	margin-left: none;
+	height: 90px;
+	width: 100%;
+	color: #656565;
+	text-align: center;
+	background-color: #333333;
 }
