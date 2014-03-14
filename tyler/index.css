@@ -1,14 +1,8 @@
 /* Main marketing message and sign up button */
 
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+body {
+	font-family: 'Open Sans', sans-serif;
 }
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
-}
-
 .marketing {
   margin: 40px;
 }
@@ -27,7 +21,7 @@
 .col-md-4 {
 	border-color: black;
 	background-color: orange;
-	height: 198px;
+	height: 205epx;
 }
 
 #footer {
@@ -72,11 +66,195 @@
 	margin-top: 0px;
 }
 
+
+/*This is where the middle jumbotron stylings begins*/
+
+#catch {
+	font-size: 30px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 60px;
+	text-align: left;
+	font-weight: 300;
+	width: 650px;
+}
+
+#catch-div {
+
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 20px;
+  background-color: #89CFCE;
+
+}
+
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+	
 p > span {
 	font-weight: bold;
 }
 
 ol {
 	font-size: 20px;
-	font-color: white;
+	font-color: #89CFCE;
+}
+
+.big-spaceship {
+	height: 200px;
+	background-image: url('../Assets/ship.png');
+	background-repeat: no-repeat;
+	margin-top: -70px;
+	margin-right: -60px;
+	float: right;
+}
+
+#more-info {
+	font-color: #FFFFFF;
+	font-weight: 300;
+	font-size: 17px;
+	width: 285px;
+	height: 60px;
+	background-color: #666666;
+	color: #D2D2D2;
+	box-shadow: 0 6px #333333;
+	margin-top: 21px;
+}
+
+/*Botton three boxes right above the footer*/
+
+#left {
+	margin-right: 20px;
+}
+
+#middle {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#right {
+	margin-left: 20px;
+}
+
+.col-md-4 {
+	width: 363px;
+	height: 320px;
+	margin-bottom: 40px;
+	margin-top: 13px;
+	border-radius: 6px;
+	background-color: #666666;
+	padding: 0px;
+	text-align: center;
+}
+
+#left-title {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #555555;
+	padding: 0px;
+	font-size: 25px;
+	height: 60px;
+	color: white;
+}
+
+#left-price {
+	padding-top: 40px;
+	border-top: 1px solid #777777;
+	font-size: 65px;
+	font-weight: 300;
+	color: white;
+	margin: -40px 0px 0px 0px;
+}
+
+#left-package {
+	border-top: 10px solid white;
+	font-size: 14px;
+	margin: 0px 72px 10px 72px;
+	padding-top: 20px;
+	color: white;
+}
+
+#middle-title {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #555555;
+	padding: 0px;
+	font-size: 25px;
+	height: 60px;
+	color: white;
+}
+
+#middle-price {
+	padding-top: 40px;
+	border-top: 1px solid #777777;
+	font-size: 65px;
+	font-weight: 300;
+	color: white;
+	margin: -40px 0px 0px 0px;
+}
+
+#middle-package {
+	border-top: 10px solid white;
+	font-size: 14px;
+	margin: 0px 72px 10px 72px;
+	padding-top: 20px;
+	color: white;
+}
+
+#jupiter {
+	font-size: 20px;
+	height: 60px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: -35px;
+	font-weight: 300;
+}
+
+#jupiter-price {
+	font-size: 50px;
+	color: white;
+	/*margin-top: 10px;*/
+	margin-bottom: 35px;
+	padding-bottom: 20px;
+	font-weight: 300;
+	border-bottom: 1px solid #555555;
+}
+
+#center-earth {
+	font-size: 20px;
+	height: 55px;
+	color: white;
+	margin-top: -35px;
+	font-weight: 300;
+	
+	padding-top: 10px;
+	border-top: 1px solid #777777;
+}
+
+#center-earth-price {
+	font-size: 50px;
+	margin-top: -30px;
+	color: white;
+	font-weight: 300;
+	border-bottom: 1px solid #555555;
+	margin-bottom: -20px;
+	padding-bottom: 10px;
+}
+
+#more-deals {
+	border-top: 1px solid #777777;
+	margin-top: 20px;
+	font-size: 30px;
+	color: white;
+	padding-top: 10px;
+	font-weight: 300;
+}
+img{
+	margin-left: 5px;
 }

@@ -8,8 +8,9 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-  	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-  	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<link rel="stylesheet" href="index.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,25 +57,41 @@
           </div>
         </div>
 	  	<div class='container'>
-	  		<div class='small-12 large-12'></div>
 	  		<div class='row'>
-          <div class='jumbotron'>
-          <p>We will take you to the Moon and Back! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, consectetur minus laudantium ullam inventore ut. Magnam, a fugit corrupti officiis ex nulla harum sunt aliquam saepe unde. Doloremque, reprehenderit, at!</p>
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-          </div>
-        </div>
-					
+          <div class='jumbotron col-mid-12'>
+            <div class='row'>
+              <div class='col-lg-8'>  
+                 <div id='catch-div'> 
+                  <p id='catch'>We will take you to the <span>Moon and Back</span>! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cras vitae leo est. Maecenas sit amet nisi tellus.  Donec a consequat mi, ut sodales eros!</p>
+                 </div> 
+              </div>
+              <div class='big-spaceship col-lg-4'>
+               
+              </div>
+               <button id='more-info'>Find Out More</button>
+            </div>
+           </div>
+					</div>
         <div class="row">
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
-        </div>
-      </div>
-      <div id='footer'>
-        <div class='container'>
-          <p>This is the sticky footer.  Enjoy</p>
+          <div class="col-md-4 jumbotron-2" id='left'>
+            <div id='left-title'>To the Moon</div>
+            <div id='left-price'>$30,000</div>
+            <div id='left-package'>Covers travel fare, lodging, and meals for 3 months in space.</div>
+          </div>
+          <div class="col-md-4 jumbotron-2" id='middle'>
+            <div id='middle-title'>Just Around Earth</div>
+            <div id='middle-price'>$10,000</div>
+            <div id='middle-package'>Covers travel fare, lodging, and meals for 3 months in space.</div>
+          </div>
+          <div class="col-md-4 jumbotron-2" id='right'>
+            <div id='jupiter'>Just to Jupiter</div>
+            <div id='jupiter-price'>$26,000</div>
+            <div id='center-earth'>Center of the Earth</div>
+            <div id='center-earth-price'>$156,000</div>
+            <div id='more-deals'>More deals
+            <img src='../Assets/arrow.png'>
+            </div>
+          </div>
         </div>
       </div>
   </body>
