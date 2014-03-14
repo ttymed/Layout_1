@@ -12,7 +12,9 @@ body {
   margin-top: 28px;
 }
 
-
+.small-view {
+	display: none;
+}
 
 .navbar {
 	margin-top: -25px;
@@ -326,4 +328,84 @@ img{
 
 #content {
 	background-color: white;
+	width: 100%;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  
+	.row {
+		
+	}
+	.navbar-text {
+		display: none;
+	}
+	.small-view {
+		display: block;
+		margin-top: 23px;
+		color: white;
+		text-align: left;
+		font-size: 40px;
+		width: 100%;
+		margin-bottom: -30px;
+		margin-top: 10px;
+	}
+	#small-spaceship-logo {
+		background-image: url('../Assets/logo.png');
+		background-repeat: no-repeat;
+		background-size: 90px 45px;
+		height: 80px;
+		width: 200px;
+		float: left;
+		margin-left: -83px;
+		margin-top: 8px;
+		
+	}
+	#small-title {
+		width: 100px;
+		float: left;
+		margin-left: -93px;
+		color: #99CCCC;
+		font-size: 35px;
+		margin-top: 5px;
+	}
+	#small-title > p {
+		font-weight: 300;
+	}
+	#small-title > span {
+		font-weight: 600;
+		font-family: 'Open Sans', sans-serif;
+
+	}
+
+	.stars {
+		display: none;
+	}
+
+	.navbar{
+		border-top: 35px solid #99CCCC;
+	}
+
+	#small-navbar-logo {
+		background-image: url('../Assets/menu_iconon.png');
+		background-repeat: no-repeat;
+		background-size: 53px 52px;
+		height: 100px;
+		width: 62px;
+		float: right;
+		margin-left: -5px;
+		margin-top: 3px;
+		margin-bottom: -4px;
+	}
+
+	.col-lg-8 {
+		margin-top: 100px;
+	}
+
+	#content {
+		width: 100%;
+	}
+
+	.big-spaceship {
+		display: none;
+	}
 }
