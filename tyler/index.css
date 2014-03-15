@@ -333,8 +333,8 @@ img{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {  
-	.row {
-		
+	body {
+		font-family: 'Open Sans', sans-serif;
 	}
 	.navbar-text {
 		display: none;
@@ -352,11 +352,11 @@ img{
 	#small-spaceship-logo {
 		background-image: url('../Assets/logo.png');
 		background-repeat: no-repeat;
-		background-size: 90px 45px;
+		background-size: 85px 45px;
 		height: 80px;
 		width: 200px;
 		float: left;
-		margin-left: -83px;
+		margin-left: -55px;
 		margin-top: 8px;
 		
 	}
@@ -403,9 +403,151 @@ img{
 
 	#content {
 		width: 100%;
+		margin-bottom: 20px;
+		height: 2100px;
 	}
 
 	.big-spaceship {
+		float: none;
+		margin-left: 170px;
+		margin-bottom: 40px;
+		padding-bottom: 60px;
+		width: 400px;
+		height: 400px;
+		background-size: 370px;
+	}
+	
+	#catch {
+		margin-top: 210px;
+		font-size: 37.9px;
+		width: 690px;
+		text-align: center;
+		float: left;
+		font-weight: 300;
+	}
+
+	#more-info {
+		width: 80%;
+		height: 100px;
+		font-size: 24px;
+	}
+
+	.jumbotron {
+		height: 925px;
+		margin-top: -20px;
+		border-radius: 0px;
+	}
+
+	#left {
+		height: 450px;
+		width: 77%;
+		margin-left: 12%;
+		margin-top: 30px;
+	}
+
+	#left-title {
+		padding-top: 30px;
+		margin-bottom: 40px;
+		padding-bottom: 70px;
+		font-size: 30px;
+		font-weight: 400;
+	}
+	#left-border {
+		
+		width: 100%;
+		border-top: 1px solid #777777;
+		margin-top: -39px;
+		margin-bottom: 40px;
+	}
+
+	#left-price {
+		border-top: none;
+		padding-top: 35px;
+		border-bottom: 14px solid white;
+		display: inline;
+		font-weight: 300;
+		font-size: 90px;
+	}
+	#left-package {
+		border: none;
+		width: 48%;
+		margin-left: 25%;
+		margin-right: 60%;
+		margin-top: 20px;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	#middle {
+		height: 450px;
+		width: 77%;
+		margin-left: 12%;
+		margin-top: 30px;
+	}
+
+	#middle-title {
+		padding-top: 30px;
+		margin-bottom: 40px;
+		padding-bottom: 70px;
+		font-size: 30px;
+		font-weight: 400;
+	}
+
+	#middle-price {
+		border-top: none;
+		padding-top: 35px;
+		border-bottom: 14px solid white;
+		display: inline;
+		font-weight: 300;
+		font-size: 90px;
+	}
+
+	#middle-package {
+		border: none;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 60%;
+		margin-top: 20px;
+		font-size: 20px;
+		margin-bottom: 40px;
+
+	}
+
+	.small-disappear{
 		display: none;
 	}
+	
+	#small-more-deals {
+		margin-bottom: 20px;
+		margin-top: -20px;
+		padding-top: 38px;
+		height: 119px;
+		width: 100%;
+		color: white;
+		text-align: center;
+		background-color: #99CCCC;
+		font-size: 34px;
+		font-weight: 600;
+		transition:background-color .5s;
+	}
+
+	#small-more-deals:hover {
+		background-color: #444444;
+		color: #CCCCCC;
+	}
+
+	#small-arrow {
+		margin-left: 21px;
+		height: 50px;
+	}
+
+	#footer {
+		width: 52%;
+		margin-left: 25%;
+		font-size: 18px;
+		margin-top: -20px;
+		margin-bottom: 40px;
+		font-weight: 300;
+	}
+
 }
